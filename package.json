@@ -1,0 +1,25 @@
+{
+  "name": "helloworld1",
+  "version": "1.0.0",
+  "description": "hi world number 1",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hahaha"
+  },
+  "keywords": [
+    "says",
+    "hello",
+    "in",
+    "a",
+    "cluster"
+  ],
+  "author": "neill.cain@outlook.com",
+  "license": "MIT",
+  "dependencies": {
+    "ip": "^1.1.3"
+  }
+}
