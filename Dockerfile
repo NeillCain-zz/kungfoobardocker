@@ -1,7 +1,4 @@
-FROM centos:latest
-
-RUN yum install -y epel-release && \
-yum install -y nodejs npm
+FROM node:4-onbuild
 
 COPY package.json /src/package.json
 RUN cd /src; npm install --production
